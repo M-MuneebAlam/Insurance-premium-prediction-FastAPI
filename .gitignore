@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyd
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs and Outputs
+*.log
+logs/
+*.out
+*.err
+
+# ML/DL Files
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.joblib
+*.pkl
+*.npz
+*.npy
+runs/          # e.g., for TensorBoard
+checkpoints/
+experiments/
+models/
+output/
+
+# Datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.zip
+*.tar.gz
+
+# FastAPI/Uvicorn temporary files
+*.db
+*.sqlite3
+instance/
+*.pid
+
+# Coverage / testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+.cache
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker
+*.env
+.env.*
+docker-compose.override.yml
+__docker_build__/
+
+# Misc
+*.bak
+*.swp
