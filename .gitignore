@@ -10,6 +10,7 @@ build/
 *.pyo
 
 # Virtual Environment
+myenv/
 venv/
 env/
 .venv/
